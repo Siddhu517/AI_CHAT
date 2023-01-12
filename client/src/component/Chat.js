@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import bot from "../../public/assets/bot.svg";
-import user from "../../public/assets/user.svg";
+import bot from "./assets/bot.svg";
+import user from "./assets/user.svg";
 import "./style.css";
-import imgSend from "../../public/assets/send.svg";
+import imgSend from "./assets/send.svg";
 
 const Chat = () => {
   const [formData, setFormData] = useState({});
