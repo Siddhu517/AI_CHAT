@@ -65,7 +65,7 @@ const Chat = () => {
   };
 
   const chatStripe = (isAi, value, uniqueId) => (
-    <div className={`wrapper ${isAi && "ai"}`}>
+    <div className={`wrapper ${isAi && "ai"}`} key={uniqueId}>
       <div className="chat">
         <div className="profile">
           <img src={isAi ? bot : user} alt={isAi ? "bot" : "user"} />
